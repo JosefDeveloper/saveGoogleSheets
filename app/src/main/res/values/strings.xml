@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">saveGoogleSheets</string>
+    <string name="todo">TODO</string>
+    <string name="txt_name">Nombre</string>
+    <string name="txt_surname">Apellido</string>
+    <string name="txt_phone">Nro de teléfono</string>
+    <string name="txt_email">Correo electrónico</string>
+    <string name="txt_birthday">Cumpleaños</string>
+    <string name="txt_addPerson">Agregar nueva persona</string>
+    <string name="txt_register">Registrar</string>
+    <string name="txt_age">Edad:</string>
+</resources>

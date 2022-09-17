@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activities.RegisterScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/txt_addPerson"
+            android:textColor="@color/purple_700"
+            android:textSize="22sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_input"
+            android:hint="@string/txt_name"
+            android:inputType="textPersonName"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/purple_200"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_input"
+            android:hint="@string/txt_surname"
+            android:inputType="textPersonName"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/purple_200"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_input"
+            android:hint="@string/txt_age"
+            android:inputType="number"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/purple_200"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_button"
+            android:text="@string/txt_register"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>
